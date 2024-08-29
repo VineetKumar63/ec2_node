@@ -16,6 +16,6 @@ app.get('/api/pm2',(req,res)=>{
 })
 
 
-app.listen(process.env.PORT, ()=>{
+app.listen(8000, ()=>{
     console.log("server is running..........")
 })
